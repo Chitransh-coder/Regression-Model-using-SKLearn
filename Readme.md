@@ -1,0 +1,3 @@
+# Simple Regression model using SKLearn
+
+This Repo contains a simple regression model using SKLearn. The model is trained on the [Auto MPG Dataset](https://archive.ics.uci.edu/ml/datasets/auto+mpg) from UCI Machine Learning Repository. This model imports the dataset directly from the url of the UCI repository. The model then transforms data using Pipelines and then trains a linear regression model based on Random Forest Regressor algorithm. The model is then saved as a pickle file in the [assets](./assets) folder. The model can then be loaded and used for prediction.
